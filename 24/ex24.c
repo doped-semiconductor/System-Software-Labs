@@ -1,3 +1,9 @@
+/* 
+    Name: ex24.c
+    Author: Sreya Goswami
+    Description: C Program to Create Orphan Process
+*/  
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
@@ -9,10 +15,14 @@ int main(){
 		printf("Child Process ID: %d\n", pid);
 		printf("Parent Process ID: %d\n", getppid());
 		sleep(50);
-		printf("Sleep over. %d\n",getppid());
+		printf("Child Process ID: %d\n", pid);
+		printf("Parent Process ID: %d\n", getppid());
 	}
 	else{
 		int pid = getpid();
 		printf("From parent\n");
+		exit(0);
 	}
+
+	return 0;
 }
