@@ -1,3 +1,9 @@
+/* 
+    Name: gen.c
+    Author: Sreya Goswami
+    Description: C Program to Initialize Ticket Number File
+*/  
+
 #include<stdio.h>
 #include<unistd.h>
 #include<fcntl.h>

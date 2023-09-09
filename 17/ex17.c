@@ -1,11 +1,17 @@
+/* 
+    Name: ex17.c
+    Author: Sreya Goswami
+    Description: C Program to Apply Write Lock and Modify Ticket Number File
+*/  
+
 #include<stdio.h>
 #include<unistd.h>
 #include<fcntl.h>
-//#include<.h>
 
 struct tk{
 	int t;
 };
+
 int main(){
 	struct tk n;
 	int fd = open("ticket",O_RDWR);
