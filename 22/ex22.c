@@ -1,3 +1,9 @@
+/* 
+    Name: ex22.c
+    Author: Sreya Goswami
+    Description: C Program to Create Child and Parent Process with fork() and Write to Same File
+*/  
+
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
