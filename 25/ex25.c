@@ -1,3 +1,9 @@
+/* 
+    Name: ex25.c
+    Author: Sreya Goswami
+    Description: C Program to Wait for 3 Child Processes using waitpid()
+*/  
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
@@ -24,7 +30,7 @@ int main(){
 	while(i<3){
 		printf("Waiting for child #%d\n",i+1);
 		int s;
-		waitpid(0,&s,0);
+		waitpid(-1,&s,0);
 		printf("Child %d finished. Status: %d\n",i+1,s);
 		i++;
 	}
