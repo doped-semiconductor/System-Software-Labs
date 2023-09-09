@@ -1,3 +1,9 @@
+/* 
+    Name: ex13.c
+    Author: Sreya Goswami
+    Description: C Program to Implement Timed Input Acceptance using select()
+*/  
+
 #include <sys/select.h>
 #include <stdio.h>
 
