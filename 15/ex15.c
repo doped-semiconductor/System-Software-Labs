@@ -1,3 +1,9 @@
+/* 
+    Name: ex15.c
+    Author: Sreya Goswami
+    Description: C Program to List Environment Variables Related To The User
+*/  
+
 #include<stdio.h>
 #include<string.h>
 
