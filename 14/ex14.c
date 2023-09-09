@@ -1,3 +1,9 @@
+/* 
+    Name: ex14.c
+    Author: Sreya Goswami
+    Description: C Program to Identify File Type
+*/  
+
 #include<stdio.h>
 #include<sys/stat.h>
 #include<unistd.h>
@@ -10,7 +16,7 @@ int main(int argc, char* argv[]){
 	}
 	struct stat sb;
 	if (lstat(argv[1], &sb) == -1) {
-               perror("Unable to retrieve data with lstat.\n");
+		perror("Unable to retrieve data with lstat.\n");
 	}	
 	printf("File type:                ");
 
