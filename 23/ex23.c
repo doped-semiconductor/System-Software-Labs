@@ -1,3 +1,9 @@
+/* 
+    Name: ex23.c
+    Author: Sreya Goswami
+    Description: C Program to Create Zombie Process
+*/  
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
