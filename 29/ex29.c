@@ -1,3 +1,9 @@
+/* 
+    Name: ex29.c
+    Author: Sreya Goswami
+    Description: C Program to Display Min and Max Priority
+*/  
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
@@ -6,9 +12,9 @@
 
 int main(){
 
-	int a, b;
+    int a, b;
 
-	a = sched_getscheduler(getpid());
+    a = sched_getscheduler(getpid());
     printf("First Scheduling Priority: %d \n",a);
 
     struct sched_param p;
@@ -21,7 +27,7 @@ int main(){
     }
 
     a = sched_getscheduler(getpid());
-
-    printf("Second Scheduling Policy: %d\n",a);
+    printf("Second Scheduling Priority: %d\n",a);
+    
 	return 0;
 }
