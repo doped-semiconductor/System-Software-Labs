@@ -1,0 +1,4 @@
+ps -C a.out -o pid ppid pgid sid tty command
+
+    PID    PPID    PGID     SID TT       COMMAND
+   3943    1304    3943    3943 ?        ./a.out
