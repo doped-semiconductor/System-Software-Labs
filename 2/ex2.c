@@ -1,10 +1,13 @@
+/* 
+    Name: ex2.c
+    Author: Sreya Goswami
+    Description: C Program to create program that can run infinitely in background
+*/
+
 #include <stdio.h>
 
-
 int main(){
-	printf("Infinite loop\n");
+	printf("Infinite background loop\n");
 	int x = getchar();
 	printf("%d",x);
-	//while(!0) int a=1;
-	//return 0;
 }
