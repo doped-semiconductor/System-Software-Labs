@@ -1,3 +1,9 @@
+/* 
+    Name: ex30.c
+    Author: Sreya Goswami
+    Description: C Program to Create a Daemon
+*/  
+
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
@@ -7,28 +13,20 @@
 
 
 int main(){
-	printf("Start\n");
 	pid_t pid;
 	pid = fork();
 
 	if(pid == -1)
 		return -1;
 	else if(pid!=0){
-		printf("Kill PArent\n");
 		exit(EXIT_SUCCESS);
 	}
-
-	printf("Child\n");
 
 	if(setsid()==-1)
 		return -1;
 
-	printf("sid set\n");
-
 	if(chdir("/")==-1)
 		return -1;
-
-	printf("dir changed\n");
 
 	umask(0);
 
@@ -39,7 +37,15 @@ int main(){
 	dup(0);
 	dup(0);
 
-	sleep(100);
+	int fd = open("daemonlog.txt",O_RDWR|O_CREAT,0777);
+	char *a = "1 2 3\n";
+	int n = sizeof(a);
+
+	while(!0){
+		write(fd,a,n);
+		sleep(10);
+	}
+	
 	return 0;
 
 
