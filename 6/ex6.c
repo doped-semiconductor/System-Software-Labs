@@ -1,3 +1,9 @@
+/* 
+    Name: ex6.c
+    Author: Sreya Goswami
+    Description: C Program to read from one STDIN and write to STDOUT
+*/
+
 #include <unistd.h>
 
 int main(){
