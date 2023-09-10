@@ -1,3 +1,9 @@
+/* 
+    Name: ex11.c
+    Author: Sreya Goswami
+    Description: C Program to Open Files using dup, dup2, fcntl
+*/  
+
 #include<stdio.h>
 #include<unistd.h>
 #include<fcntl.h>

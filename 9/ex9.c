@@ -1,3 +1,9 @@
+/* 
+    Name: ex9.c
+    Author: Sreya Goswami
+    Description: C Program to Get File Data With stat()
+*/
+
 #include <stdio.h>
 #include <time.h>
 #include <fcntl.h>

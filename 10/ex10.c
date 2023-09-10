@@ -1,3 +1,9 @@
+/* 
+    Name: ex10.c
+    Author: Sreya Goswami
+    Description: C Program to Write At Specific Bytes and Verify with OD
+*/  
+
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
