@@ -1,3 +1,9 @@
+/* 
+    Name: ex9.c
+    Author: Sreya Goswami
+    Description: C Program to Get File Data Line By Line
+*/
+
 #include <unistd.h>
 #include <string.h>
 #include <stdio.h>

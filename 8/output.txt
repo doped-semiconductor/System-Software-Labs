@@ -1,0 +1,8 @@
+Line:This is a file.
+Line:Created with many lines.
+Line:
+Line:I am reading.
+Line:This is the data.
+Line:
+Line:Thank you!
+Line:
