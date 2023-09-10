@@ -1,3 +1,9 @@
+/* 
+    Name: ex5.c
+    Author: Sreya Goswami
+    Description: C Program to create 5 new files and check /proc for fd details
+*/
+
 #include <fcntl.h>
 #include <unistd.h>
 #include <stdio.h>

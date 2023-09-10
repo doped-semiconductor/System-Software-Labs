@@ -1,0 +1,11 @@
+total 0
+dr-x------ 2 sreya sreya  8 Sep 10 12:40 ./
+dr-xr-xr-x 9 sreya sreya  0 Sep 10 12:40 ../
+lrwx------ 1 sreya sreya 64 Sep 10 12:40 0 -> /dev/pts/1
+lrwx------ 1 sreya sreya 64 Sep 10 12:40 1 -> /dev/pts/1
+lrwx------ 1 sreya sreya 64 Sep 10 12:40 2 -> /dev/pts/1
+l-wx------ 1 sreya sreya 64 Sep 10 12:40 3 -> /home/sreya/ClassWorkspace/0-SSLAB/1-hands-on/5/tmp1*
+l-wx------ 1 sreya sreya 64 Sep 10 12:40 4 -> /home/sreya/ClassWorkspace/0-SSLAB/1-hands-on/5/tmp2*
+l-wx------ 1 sreya sreya 64 Sep 10 12:40 5 -> /home/sreya/ClassWorkspace/0-SSLAB/1-hands-on/5/tmp3*
+l-wx------ 1 sreya sreya 64 Sep 10 12:40 6 -> /home/sreya/ClassWorkspace/0-SSLAB/1-hands-on/5/tmp4*
+l-wx------ 1 sreya sreya 64 Sep 10 12:40 7 -> /home/sreya/ClassWorkspace/0-SSLAB/1-hands-on/5/tmp5*
