@@ -1,0 +1,11 @@
+total 40
+drwxrwxr-x  2 sreya sreya  4096 Sep 10 12:57 ./
+drwxrwxr-x 34 sreya sreya  4096 Sep 10 10:54 ../
+-rwxrwxr-x  1 sreya sreya 16072 Sep 10 12:56 a.out*
+-rw-rw-r--  1 sreya sreya   504 Sep 10 12:53 ex1.c
+-rw-rw-r--  1 sreya sreya    12 Sep 10 12:57 file1.txt
+-rw-rw-r--  2 sreya sreya    12 Sep 10 12:57 file2.txt
+-rw-rw-r--  2 sreya sreya    12 Sep 10 12:57 hlFile2Fromc
+p---------  1 sreya sreya     0 Sep 10 12:57 myfifo|
+-rw-rw-r--  1 sreya sreya     0 Sep 10 12:57 output.txt
+lrwxrwxrwx  1 sreya sreya     9 Sep 10 12:57 slFile1FromC -> file1.txt

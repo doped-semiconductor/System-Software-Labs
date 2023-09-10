@@ -1,2 +1,1 @@
-test file 1 created through shell
-modified slfile1.txt
+test file 1

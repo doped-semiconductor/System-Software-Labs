@@ -1,2 +1,1 @@
-test file 2 created through shell
-modify slifile2 through shell
+test file 2
